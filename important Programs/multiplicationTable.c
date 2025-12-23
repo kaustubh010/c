@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <conio.h>
+// #include <conio.h>
 
-void main() {
+int main() {
     int n, i = 1;
-    clrscr();
+    // clrscr();
     printf("Enter a number: ");
     scanf("%d", &n);
 
@@ -12,5 +12,5 @@ void main() {
         i++;
     } while (i <= 10);
 
-    getch();
+    return 0;
 }

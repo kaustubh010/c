@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <conio.h>
 
-void main() {
+int main() {
     int i, j, n;
-    clrscr();
+    // clrscr();
     printf("Enter a number: ");
     scanf("%d", &n);
 
@@ -16,5 +16,6 @@ void main() {
         }
         printf("\n");
     }
-    getch();
+    // getch();
+    return 0;
 }
